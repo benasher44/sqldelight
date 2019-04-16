@@ -4,8 +4,9 @@ apply plugin: 'com.squareup.sqldelight'
 archivesBaseName = 'sample-common'
 
 sqldelight {
-  packageName = "com.example.sqldelight.hockey"
-  className = "HockeyDb"
+  HockeyDb {
+    packageName = "com.example.sqldelight.hockey"
+  }
 }
 
 
